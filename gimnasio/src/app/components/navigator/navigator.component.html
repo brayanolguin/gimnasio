@@ -1,0 +1,16 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" routerLink="/index">Control Panel</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/mangas" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><fa-icon icon='gamepad' size="lg" [fixedWidth]="true"></fa-icon> games</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" routerLink="/games/add" routerLinkActive="active" [routerLinkActiveOptions]="{exact: true}"><fa-icon icon='plus-circle' size="lg" [fixedWidth]="true"></fa-icon> add game</a>
+        </li>
+        </ul>
+    </div>
+</nav>
